@@ -8,14 +8,12 @@ options(spinner.color="#0275D8", spinner.color.background="#ffffff", spinner.siz
 
 # Define dashboardHeader()
 header <- dashboardHeader(title =  "Movie Database",
-                          
                           tags$li(class="dropdown",
                                   tags$a(href="https://github.com/htsull/R-Project-TIDE-2021/tree/main/Project_2021_sol/Shiny_app", 
                                          icon("github"), 
                                          "Source Code", 
                                          target="_blank")
                                 )
-                          
                           )
                          
                           
@@ -32,7 +30,6 @@ sidebar <- dashboardSidebar(minified = F, collapsed = TRUE,
              badgeLabel =icon("chart-bar"), badgeColor = "light-blue")
               )
 )
-
 
 
 # Define dashboardBody()
@@ -52,7 +49,8 @@ body <- dashboardBody(
                            tags$script("$(document).ready(function(){
                                         $('#window').modal();
                                         });")
-                 )),
+                 )
+                ),
 
   
     # head links tag for css stylesheet
@@ -91,13 +89,10 @@ body <- dashboardBody(
                
                ),
         
-        
         column(9,
                uiOutput("filtered_table") %>% withSpinner(type = 6)
                )
-               
         )
-
 ),
 
 tabItem("data_table",
@@ -188,5 +183,3 @@ ui<-dashboardPage(header, sidebar, body, footer=footer)
 
 
 ################################################################################
-
-
