@@ -1,0 +1,6 @@
+"0","scale_y_continuous(n.breaks = 15) +
+  scale_x_continuous(n.breaks = 15)
+"
+"2","Error: Cannot add ggproto objects together. Did you forget to add this object to a ggplot object?
+[90mRun `rlang::last_error()` to see where the error occurred.[39m
+"
