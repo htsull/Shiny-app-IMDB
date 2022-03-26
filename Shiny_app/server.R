@@ -3,8 +3,6 @@ server <- function(input, output, session) {
   toggleModal(session, "startupModal", toggle = "open")
   
   
-  
-  
   observeEvent(
     input$decade,
     updateSelectInput(session,
@@ -18,8 +16,6 @@ server <- function(input, output, session) {
     data_$title[data_$decade == input$decade] %>% sort
   })
   
-
-
 
 # filtering data and rendering to htmlTable
   output$filtered_table <- renderUI({
