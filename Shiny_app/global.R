@@ -6,10 +6,6 @@ path_ <- "./data_shiny_useable.csv"
 data_ <- read.csv(file = path_, sep = ",", header = T, encoding = "uft-8")
 
 
-
-
-
-
 decade_val <- unique(data_$decade) %>%  sort %>% as.list
 data_$language[data_$language == "None"] <- NA
 
@@ -35,8 +31,6 @@ free to suggest improvements on GitHub. The repo link is on the top right of the
 Thanks already."
 
 
-
-
 description_fr <- "Cette application Shiny a été créée dans le cadre d'un projet scolaire par Berthony Sully en tant 
 qu'évaluation pour le stage de programmation R. 
 
@@ -48,3 +42,5 @@ En raison des contraintes de temps, nous n'avons pas pu optimiser le code et ré
 mais nous avons rendu l'expérience utilisateur aussi bonne que possible. L'utilisation du code et des ressources 
 est libre et n'hésitez pas à proposer des améliorations sur GitHub. Le lien du repo se trouve en haut à droite de la 
 page principale. Merci déjà."
+
+
