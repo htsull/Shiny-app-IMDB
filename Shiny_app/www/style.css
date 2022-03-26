@@ -22,29 +22,32 @@ body {
   position: relative;
 }
 @media (max-width: 768px) {
-  .card {
+  .card 
+  {
     margin: 10px 20px;
     width: calc(100% - 40px);
   }
-  .card:first-child {
+  .card:first-child 
+  {
     margin-top: 20px;
     
   }
-
-  
 }
+
 .card:nth-child(2) {
   margin: 20px 0px;
   width: 33.3333%;
   padding: 50px 20px;
 }
 @media (max-width: 768px) {
-  .card:nth-child(2) {
+  .card:nth-child(2) 
+  {
     margin: 10px 20px;
     width: calc(100% - 40px);
     
   }
 }
+
 .card .title {
   font-size: 35px;
 }
@@ -70,8 +73,6 @@ body {
 .card .features ul li span {
   border-bottom: 2px dotted #F6B352;
 }
-
-
 
 .card:hover {
   transition: all 0.5s ease-out;
@@ -102,7 +103,6 @@ body {
   font-family: sans-serif;
   font-weight: 700;
 }
-
 
 #cont {
     position: relative;
