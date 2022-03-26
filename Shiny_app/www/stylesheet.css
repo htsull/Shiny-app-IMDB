@@ -1,49 +1,60 @@
-table{
-  table-layout: fixed !important; 
-  width: 100% !important;
+table
+{
+	table-layout: fixed !important; 
+	width: 100% !important;
 	overflow: scroll;
 }
-td{
+
+td
+{
 	font-size: 1.5rem;
 	height: auto;
 	width: auto;
-
 }
 
-.main-footer{
-  font-family:"Trebuchet MS", sans-serif;
-  font-weight: 400;
-  background-color: #3C8DBC;
-  color: white !important;
+.main-footer
+{
+	font-family:"Trebuchet MS", sans-serif;
+	font-weight: 400;
+	background-color: #3C8DBC;
+	color: white !important;
 }
 
-table td {
-max-width: 100px;
-white-space: nowrap;
-text-overflow: ellipsis;
-word-break: break-all;
-overflow: hidden;
+table td 
+{
+	max-width: 100px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	overflow: hidden;
 }
 
-.dataTables_wrapper .dataTables_filter {
-    float: right;
-    text-align: right;
-    display: none;
+.dataTables_wrapper .dataTables_filter 
+{
+	float: right;
+	text-align: right;
+	display: none;
 }
-
-
-  
-
 
 
 tr
-	{mso-height-source:auto;}
+{
+	mso-height-source:auto;
+}
+
 col
-	{mso-width-source:auto;}
+{
+	mso-width-source:auto;
+}
+
 br
-	{mso-data-placement:same-cell;}
+{
+	mso-data-placement:same-cell;
+}
+
 .style0
-	{mso-number-format:General;
+{
+	mso-number-format:General;
 	text-align:general;
 	vertical-align:bottom;
 	white-space:nowrap;
@@ -59,15 +70,17 @@ br
 	border:none;
 	mso-protection:locked visible;
 	mso-style-name:Normal;
-	mso-style-id:0;}
+	mso-style-id:0;
+}
+
 td
-	{mso-style-parent:style0;
+{
+	mso-style-parent:style0;
 	padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
 	mso-ignore:padding;
 	color:black;
-
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
@@ -81,10 +94,12 @@ td
 	mso-pattern:auto;
 	mso-protection:locked visible;
 	white-space:nowrap;
-	mso-rotate:0;}
+	mso-rotate:0;
+}
 
 .xl66
-	{mso-style-parent:style0;
+{
+	mso-style-parent:style0;
 	color:white!important;
 	font-size: 2rem;
 	font-weight:700;
@@ -92,10 +107,12 @@ td
 	vertical-align:middle;
 	background:#3C8DBC;
 	mso-pattern:black none;
-	white-space:normal;}
+	white-space:normal;
+}
+
 .xl67
-	{mso-style-parent:style0;
-
+{
+	mso-style-parent:style0;
 	font-weight:700;
 	font-family:"Trebuchet MS", sans-serif!important;
 	mso-font-charset:0;
@@ -109,9 +126,12 @@ td
 	mso-pattern:black none;
 	white-space:normal;
 	padding-left:9px;
-	mso-char-indent-count:1;}
+	mso-char-indent-count:1;
+}
+
 .xl68
-	{mso-style-parent:style0;
+{
+	mso-style-parent:style0;
 	font-weight:700;
 	font-family:"Trebuchet MS", sans-serif!important;
 	mso-font-charset:0;
@@ -125,10 +145,12 @@ td
 	mso-pattern:black none;
 	white-space:normal;
 	padding-left:9px;
-	mso-char-indent-count:1;}
-.xl69
-	{mso-style-parent:style0;
+	mso-char-indent-count:1;
+}
 
+.xl69
+{
+	mso-style-parent:style0;
 	font-weight:700;
 	font-family:"Trebuchet MS", sans-serif!important;
 	mso-font-charset:0;
@@ -142,10 +164,12 @@ td
 	mso-pattern:black none;
 	white-space:normal;
 	padding-left:9px;
-	mso-char-indent-count:1;}
-.xl70
-	{mso-style-parent:style0;
+	mso-char-indent-count:1;
+}
 
+.xl70
+{
+	mso-style-parent:style0;
 	font-family:"Trebuchet MS", sans-serif!important;
 	mso-font-charset:0;
 	text-align:left;
@@ -158,10 +182,12 @@ td
 	mso-pattern:black none;
 	white-space:normal;
 	padding-left:9px;
-	mso-char-indent-count:1;}
-.xl71
-	{mso-style-parent:style0;
+	mso-char-indent-count:1;
+}
 
+.xl71
+{
+	mso-style-parent:style0;
 	font-family:"Trebuchet MS", sans-serif!important;
 	mso-font-charset:0;
 	text-align:left;
@@ -174,9 +200,12 @@ td
 	mso-pattern:black none;
 	white-space:normal;
 	padding-left:9px;
-	mso-char-indent-count:1;}
+	mso-char-indent-count:1;
+}
+
 .xl72
-	{mso-style-parent:style0;
+{
+	mso-style-parent:style0;
 	font-weight:700;
 	font-family:"Trebuchet MS", sans-serif!important;
 	mso-font-charset:0;
@@ -190,9 +219,12 @@ td
 	mso-pattern:black none;
 	white-space:normal;
 	padding-left:9px;
-	mso-char-indent-count:1;}
+	mso-char-indent-count:1;
+}
+
 .xl73
-	{mso-style-parent:style0;
+{
+	mso-style-parent:style0;
 	font-family:"Trebuchet MS", sans-serif!important;
 	mso-font-charset:0;
 	text-align:left;
@@ -205,4 +237,5 @@ td
 	mso-pattern:black none;
 	white-space:normal;
 	padding-left:9px;
-	mso-char-indent-count:1;}
+	mso-char-indent-count:1;
+}
