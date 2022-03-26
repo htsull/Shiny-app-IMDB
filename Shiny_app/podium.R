@@ -9,8 +9,6 @@ table2 <- function(original_title1,
                    avg_vote3) {
   tagList(HTML(glue::glue('
 
-
-
 <body>
     <div class="card">
         
@@ -27,10 +25,8 @@ table2 <- function(original_title1,
               <li><span><i class="fas fa-calendar-alt"></i></span> Year Published : {year2}</li>
             </ul>
           </div><!--/features-->
-      
-
-      
-      </div><!--/card-->
+      </div>
+      <!--/card-->
       
       <div class="card">
         <div> <span class="position"> 1 </span></div>
@@ -46,11 +42,11 @@ table2 <- function(original_title1,
             <li><span><i class="fas fa-thumbs-up"></i></span> Average vote : {avg_vote1}</li>
             <li><span><i class="fas fa-calendar-alt"></i></span> Year Published : {year1}</li>
           </ul>
-        </div><!--/features-->
+        </div>
+        <!--/features-->
       
-        
-      
-      </div><!--/card-->
+      </div>
+      <!--/card-->
       
       <div class="card">
       
@@ -67,16 +63,8 @@ table2 <- function(original_title1,
               <li><span><i class="fas fa-calendar-alt"></i></span> Year Published : {year3}</li>
             </ul>
           </div><!--/features-->
-      
-        
-      
       </div><!--/card-->
-      
-      
-      
 </body>
-
-
                           ')
               )
           )
