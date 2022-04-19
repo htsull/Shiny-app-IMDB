@@ -1,6 +1,6 @@
 # Shiny dashboard project
 # TIDE 2021-2022
-# Par Berthony Sully et Landy Clément 
+# Par Berthony Sully 
 
 # global option for sipnners
 options(spinner.color="#0275D8", spinner.color.background="#ffffff", spinner.size=2)
@@ -9,7 +9,7 @@ options(spinner.color="#0275D8", spinner.color.background="#ffffff", spinner.siz
 # Define dashboardHeader()
 header <- dashboardHeader(title =  "Movie Database",
                           tags$li(class="dropdown",
-                                  tags$a(href="https://github.com/htsull/R-Project-TIDE-2021/tree/main/Project_2021_sol/Shiny_app", 
+                                  tags$a(href="https://github.com/htsull/Shiny-app-IMDB", 
                                          icon("github"), 
                                          "Source Code", 
                                          target="_blank")
@@ -18,7 +18,7 @@ header <- dashboardHeader(title =  "Movie Database",
                          
                           
 # Define dashboardSidebar()
-sidebar <- dashboardSidebar(minified = F, collapsed = TRUE,
+sidebar <- dashboardSidebar(minified = F, collapsed = T,
   sidebarMenu(
         menuItem("Movies Infos", tabName = "movies_infos", icon = icon("film"),
                  badgeLabel =icon("info-circle"), badgeColor = "light-blue"),

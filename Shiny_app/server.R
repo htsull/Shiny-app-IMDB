@@ -156,7 +156,7 @@ data_view_out <- data_ %>%
   fil_decade <- reactive({
     data_ %>%
       select(original_title, decade, year, genre, avg_vote) %>%
-      filter(., grepl(input$HOF_fil2, data_$decade)) %>% 
+      dplyr::filter(., grepl(input$HOF_fil2, data_$decade)) %>% 
       arrange(desc(avg_vote)) %>%
       head(3)
   })

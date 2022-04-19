@@ -10,6 +10,7 @@ decade_val <- unique(data_$decade) %>%  sort %>% as.list
 data_$language[data_$language == "None"] <- NA
 
 
+
 bsModalNoClose <-function(...) {
   b = bsModal(...)
   b[[2]]$`data-backdrop` = "static"
