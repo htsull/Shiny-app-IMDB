@@ -26,13 +26,8 @@ The application relies on `data_shiny_useable.csv`, a cleaned subset of the IMDB
    shiny::runApp("Shiny_app")
    ```
 
+## Demo
+
+<video controls src="Screen Recording 2025-07-14 at 10.31.13 AM.mov" title="Title"></video>
+
 A deployed version is available [here](https://htsull.shinyapps.io/Shiny_app).
-
-## Français
-
-Cette application Shiny a été réalisée dans le cadre d'un projet scolaire. Elle permet d'explorer un échantillon de la base de données IMDB via quatre onglets : informations sur un film, tableau filtrable, podium des meilleurs films et graphiques sur le nombre de sorties par année. Pour la lancer localement :
-
-1. Installer R ainsi que les dépendances du fichier `req_packages.R`.
-2. Exécuter `shiny::runApp("Shiny_app")` depuis le dossier du dépôt.
-
-Une démonstration est accessible à l'adresse indiquée ci‑dessus.
