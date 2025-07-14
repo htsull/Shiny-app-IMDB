@@ -26,8 +26,8 @@ The application relies on `data_shiny_useable.csv`, a cleaned subset of the IMDB
    shiny::runApp("Shiny_app")
    ```
 
-## Demo
+## Watch the demo - Click on the thumnail below ⬇️
 
-<video controls src="Screen Recording 2025-07-14 at 10.31.13 AM.mov" title="Title"></video>
+[![Watch the demo](Screenshot.png)](https://drive.google.com/file/d/1kFCGabN0670mhC3NOUo9E1o0Ro1ozT-w/view)
 
 A deployed version is available [here](https://htsull.shinyapps.io/Shiny_app).
