@@ -1,18 +1,38 @@
 # Shiny-app-IMDB
 
-ENGLISH
----
-This Shiny application was created as part of a school project as an evaluation for the R programming course. This application that we propose allows for a simple visualization of data. In particular, it allows to filter the tables by criteria that we considered relevant and also allows to have a view on the evolution of the movie industry according to the number of movies released per year or per decade. 
+This repository contains a small Shiny dashboard built during an R programming course. The application provides a lightweight interface to explore a subset of the IMDB movie database and is available in both English and French.
 
-Due to time constraints, we could not optimize the code and reduce the execution time but we made the user experience as good as possible. The code and resources are free to use and feel free to suggest improvements on GitHub. 
+## Features
 
-View the project [here](https://htsull.shinyapps.io/Shiny_app).
+The app is divided into four main tabs:
 
+1. **Movies Infos** – choose a decade and a title to display a formatted table with details on the selected movie.
+2. **Data Table** – filter the dataset by language, country or genre and view the results in a searchable table.
+3. **Hall of Fame** – display a podium of the three best rated movies for a given decade, year or genre.
+4. **DataViz** – choose a decade to visualise the number of movies released per year with a bar chart.
 
-FRENCH
----
-Cette application Shiny a été créée dans le cadre d'un projet scolaire en tant qu'évaluation pour le stage de programmation R. Cette application que nous proposons permet de faire une visualisation simple des données. Elle permet particulièrement de filtrer les tables par des critères que nous avons jugés pertinent et permet aussi d'avoir une vue sur l'évolution de l'industrie du cinéma en fonction du nombre de films publiés par an ou par décennie. 
+A modal window describing the project appears when the app starts. All texts are provided in both English and French.
 
-En raison des contraintes de temps, nous n'avons pas pu optimiser le code et réduire le temps d'exécution mais nous avons rendu l'expérience utilisateur aussi bonne que possible. L'utilisation du code et des ressources est libre et n'hésitez pas à proposer des améliorations sur GitHub. 
+## Dataset
 
-Visualisez le projet [ici](https://htsull.shinyapps.io/Shiny_app).
+The application relies on `data_shiny_useable.csv`, a cleaned subset of the IMDB movie dataset. It includes common movie attributes such as title, year, genre, duration, country, language and average vote.
+
+## Running the app locally
+
+1. Make sure you have a recent version of **R** installed.
+2. Install the packages listed in `Shiny_app/req_packages.R`.
+3. From the repository root, launch the app with:
+   ```R
+   shiny::runApp("Shiny_app")
+   ```
+
+A deployed version is available [here](https://htsull.shinyapps.io/Shiny_app).
+
+## Français
+
+Cette application Shiny a été réalisée dans le cadre d'un projet scolaire. Elle permet d'explorer un échantillon de la base de données IMDB via quatre onglets : informations sur un film, tableau filtrable, podium des meilleurs films et graphiques sur le nombre de sorties par année. Pour la lancer localement :
+
+1. Installer R ainsi que les dépendances du fichier `req_packages.R`.
+2. Exécuter `shiny::runApp("Shiny_app")` depuis le dossier du dépôt.
+
+Une démonstration est accessible à l'adresse indiquée ci‑dessus.
